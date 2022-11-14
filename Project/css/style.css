@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    background-color: #B8E986;
+}
+header {
+    background: #B8E986;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+}
+footer {
+    height: 635px;
+    background-color: #000000;
+}
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: none;
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1.black{
+    font: 20px Ubuntu;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+h1.white {
+    font: 20px Ubuntu;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h1.green {
+    font: 20px Ubuntu;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(184, 233, 134, 1);
+}
+h1.small-green {
+    font: 20px Ubuntu;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(184, 233, 134, 1);
+}
+
+p.black{
+    font: 20px Ubuntu;
+    font-weight: lighter;
+    color: black;
+}
+p.white{
+    font: 20px Ubuntu;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+.logo {
+    height: 71px;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 120px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    padding-left: 80px;
+}
+.menu-right {
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+}
+.menu-link {
+    font: 16px Ubuntu;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.menu-link-download {
+    font: 16px Ubuntu;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.link-btn-black {
+    font: 18px Ubuntu;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+nav .btn-black {
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 196px;
+    height: 39px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn-black {
+    background-color: black;
+    border-radius: 20px;
+    width: 196px;
+    height: 39px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 271px;
+    height: 41px;
+}
+.link-btn-white {
+    font: 18px Ubuntu;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.btn-white {
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 20px;
+    width: 196px;
+    height: 39px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 271px;
+    height: 41px;
+    margin-right: 50px;
+}
+
+.main-description {
+    height: 1172px;
+    background-color: #B8E986;
+}
+.desc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    margin: 180px 180px;
+}
+.desc-info {
+    max-width: 654px;
+}
+.img-desc {
+    position: absolute;
+    width: 606px;
+    height: 351px;
+    left: 900px;
+}
+
+.main-product {
+    height: 1172px;
+    background-color: #000000;
+}
+
+.main-about {
+    height: 1172px;
+    background-color: #ffffff;
+}
+
+.main-reviews {
+    height: 1172px;
+    background-color: rgba(248, 255, 241, 1);
+}
+
+.main-product {
+    display: flex;
+}
+.product-desc-info {
+    max-width: 435px;
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-option {
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    width: 398px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container-footer {
+    padding-top: 40px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.btn-footer {
+    background-color: rgba(184, 233, 134, 1);
+    border-radius: 20px;
+    width: 196px;
+    height: 39px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 51px;
+}
+.split {
+    height: 0px;
+    border: 0.1px solid #FFFFFF;
+}
+.container-footer-menu {
+    display: flex;
+}
+.footer-menu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 285px;
+}
+.footer-link {
+    font: 16px Ubuntu;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.footer-link-download {
+    font: 16px Ubuntu;
+    font-weight: normal;
+    color:rgba(184, 233, 134, 1);
+    text-decoration: none;
+    
+}

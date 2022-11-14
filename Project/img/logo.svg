@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="100"
+   viewBox="0 0 66.145832 26.458334"
+   version="1.1"
+   id="svg1186"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   inkscape:export-filename="D:\web\REPTOR\img\logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="5.204"
+     inkscape:cx="125"
+     inkscape:cy="50"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1186" />
+  <defs
+     id="defs1180">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath889">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g885"
+         id="use891"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata1183">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="matrix(1.0053623,0,0,1.0327132,-16.553501,-101.49319)">
+    <rect
+       style="opacity:0.99;fill:#b8e986;fill-opacity:1;stroke:#ffffff;stroke-width:0.0888633;stroke-opacity:1"
+       id="rect974"
+       width="66.056976"
+       height="26.369471"
+       x="16.469122"
+       y="97.855515" />
+    <g
+       id="g1082"
+       transform="matrix(0.16933333,0,0,0.17660246,7.1197794,81.191943)">
+      <g
+         id="g900"
+         transform="translate(24.358384,4.3127404)">
+        <g
+           id="g887"
+           clip-path="url(#clipPath889)">
+          <g
+             id="g885">
+            <rect
+               style="opacity:0.99;fill:#000000;stroke-width:0.997912"
+               id="rect52"
+               width="100"
+               height="95.883904"
+               x="62.194965"
+               y="118.1402" />
+          </g>
+        </g>
+      </g>
+      <path
+         id="path22"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.61694;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 117.6843,147.40417 c -0.41016,0.0186 -0.8119,0.0605 -1.19774,0.12872 -3.64883,0.64553 -3.97657,3.70671 -5.20069,5.90248 -1.66326,2.98348 4.96479,3.15663 6.27317,4.8025 2.96338,3.72773 2.57307,13.30066 4.46364,17.55328 1.60647,3.61357 1.38094,1.53206 2.11484,5.36621 0.55192,2.88349 0.61324,9.33115 0.61324,9.33115 l 7.46046,0.0165 c 0,0 0.70383,-4.90187 1.10642,-7.97608 0.3103,-2.36948 6.56002,-2.09392 6.88639,0.27384 0.30688,2.2263 0.45927,7.68586 0.45927,7.68586 l 6.54978,-0.0631 c 0,0 0.23753,-6.61754 2.36938,-7.99245 2.83696,-1.82964 10.60718,4.24485 11.71392,5.13484 0.0411,-0.0529 0.0849,-0.0982 0.12787,-0.14745 -0.75287,-1.29102 -7.51386,-12.66657 -13.41529,-16.14404 -3.32997,-1.96222 -7.19749,-3.80643 -14.23205,-2.88336 -1.69569,0.22249 -6.04803,-1.01789 -7.34305,-3.38749 -2.52067,-4.61229 2.04714,-10.28151 -1.0725,-14.5891 -1.49957,-2.07059 -4.80592,-3.14236 -7.67706,-3.01209 z" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.14203px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.228551"
+       x="42.284081"
+       y="113.68877"
+       id="text970"><tspan
+         id="tspan968"
+         x="42.284081"
+         y="113.68877"
+         style="stroke-width:0.228551">REPTOR</tspan></text>
+  </g>
+</svg>
