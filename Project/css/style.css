@@ -59,6 +59,7 @@ p.black{
     font: 20px Ubuntu;
     font-weight: lighter;
     color: black;
+    text-align: center;
 }
 p.white{
     font: 20px Ubuntu;
@@ -144,7 +145,8 @@ nav .btn-black {
 }
 
 .main-description {
-    height: 1172px;
+    height: 1100px;
+    width: auto;
     background-color: #B8E986;
 }
 .desc-container {
@@ -165,22 +167,23 @@ nav .btn-black {
 }
 
 .main-product {
-    height: 1172px;
+    height: 1100px;
     background-color: #000000;
 }
 
 .main-about {
-    height: 1172px;
+    height: 1100px;
     background-color: #ffffff;
 }
 
 .main-reviews {
-    height: 1172px;
+    height: 1100px;
     background-color: rgba(248, 255, 241, 1);
 }
 
 .main-product {
     display: flex;
+    width: 100%;
 }
 .product-desc-info {
     max-width: 435px;
@@ -204,10 +207,72 @@ nav .btn-black {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 93px;
 }
 
 
+.gallery {
+    width: 840px;
+    height: 480px;
+    overflow: hidden;
+}
 
+.images {
+    width:100%;
+    height:100%; /* CHANGE */
+  
+    overflow-y:scroll;
+    white-space: nowrap;
+    line-height: 0;
+    font-size: 0;
+}
+.image{
+
+    display:inline;
+  
+    height:100%;
+  
+}
+.image img {
+
+    max-height:100%;
+    height:100%; /* CHANGE */
+    width:auto !important; /* CHANGE */
+  
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 325px;
+    margin: 0 95px;
+    text-align: left;
+}
+.review-text {
+    background: linear-gradient(0deg, #F8FFF1, #F8FFF1), #F8FFF1;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: left;
+}
+
+.avatar {
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 70px;
+    object-fit: cover;
+}
+  
 .container-footer {
     padding-top: 40px;
     padding-right: 120px;
