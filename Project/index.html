@@ -13,15 +13,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/icon.ico" type="image/x-icon">
     <title>REPTOR</title>
+
+    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <img class="logo" src="img/logo.png">
             <ul class="menu-left">
-                <li class ="menu-item"><a class="menu-link" href="#">Продукт</a></li>
-                <li class ="menu-item"><a class="menu-link" href="#">О нас</a></li>
-                <li class ="menu-item"><a class="menu-link" href="#">Отзывы</a></li>
+                <li class ="menu-item"><a class="menu-link" href="#main-product">Продукт</a></li>
+                <li class ="menu-item"><a class="menu-link" href="#main-about">О нас</a></li>
+                <li class ="menu-item"><a class="menu-link" href="#main-reviews">Отзывы</a></li>
                 <li class ="menu-item"><a class="menu-link-download" href="#">Скачать</a></li>
             </ul>
             <div class="menu-right">
@@ -43,11 +45,10 @@
                     <button class="btn-black"><a class="link-btn-black" href="#">Подробнее</a></button></li>
                 </div>            
                 <img class="img-desc" src="img/desc3.png">
-            </div>
-            
-        </section>  
-
-        <section class="main-product">
+            </div> 
+        </section> 
+         
+        <section id="main-product" class="main-product">
             <div class="desc-container">
                 <div class="product-desc-info">
                     <h1 class="white">Получение знаний с</h1>
@@ -83,10 +84,9 @@
                         </p>
                     </div>
                 </div>
-            
         </section>
 
-        <section class="main-about">
+        <section id="main-about" class="main-about">
             <div class="about-container">
                 <h1 class="black">О проекте</h1>
                 <p class="black">
@@ -97,15 +97,15 @@
                 </p>
                 <div class="gallery">
                     <ul class="images">
-                      <li class="image"><img src="img/gallery/photo1.jpg"></li>
-                      <li class="image"><img src="img/gallery/photo1.jpg"></li>
-                      <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="main-reviews">
+        <section id="main-reviews" class="main-reviews">
             <div class="about-container">
                 <p class="black">
                     ОТЗЫВЫ
@@ -142,11 +142,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                
-                    
+                </div>   
             </div>
-
         </section>
 
     </main>
@@ -187,5 +184,21 @@
         </div>
 
     </footer>
+
+    <script>
+        jQuery(document).ready(function() {
+        jQuery("a.menu-link").click(function () {
+            elementClick = jQuery(this).attr("href")
+            destination = jQuery(elementClick).offset().top;
+            jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 500);
+            return false;
+        });
+        });
+    </script>
+
+
+
+
+
 </body>
 </html>
