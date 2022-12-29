@@ -5,9 +5,10 @@ body {
 header {
     background: #B8E986;
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    margin-bottom: 5px;
 }
 footer {
-    height: 635px;
+    height: 400px;
     background-color: #000000;
 }
 *::-webkit-scrollbar,
@@ -41,12 +42,14 @@ h1.white {
     font-size: 48px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    margin: 0%;
 }
 h1.green {
     font: 20px Ubuntu;
     font-size: 48px;
     font-weight: bold;
     color: rgba(184, 233, 134, 1);
+    margin: 0%;
 }
 h1.small-green {
     font: 20px Ubuntu;
@@ -59,7 +62,6 @@ p.black{
     font: 20px Ubuntu;
     font-weight: lighter;
     color: black;
-    text-align: center;
 }
 p.white{
     font: 20px Ubuntu;
@@ -67,27 +69,27 @@ p.white{
     color: rgb(255, 255, 255);
 }
 .logo {
-    height: 71px;
+    height: 60px;
 }
 .container {
-    margin: 0 auto;
-    padding: 0 120px;
-}
-.nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 .menu-left {
     display: flex;
     align-items: center;
 }
 .menu-item {
-    padding-left: 80px;
+    margin-left: 60px;
 }
 .menu-right {
     display: flex;
     align-items: center;
-    padding-left: 400px;
+    margin-left: 260px;
 }
 .menu-link {
     font: 16px Ubuntu;
@@ -145,28 +147,30 @@ nav .btn-black {
 }
 
 .main-description {
-    height: 1100px;
-    width: auto;
+    height: 700px;
     background-color: #B8E986;
 }
 .desc-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30px;
-    margin: 180px 180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
+
 .desc-info {
     max-width: 654px;
 }
+
 .img-desc {
-    position: absolute;
-    width: 606px;
-    height: 351px;
-    left: 900px;
+    max-width: 40%;
+    max-height: 40%;
+    object-fit: cover;
 }
 
 .main-product {
+    display: flex;
     height: 1100px;
     background-color: #000000;
 }
@@ -181,12 +185,11 @@ nav .btn-black {
     background-color: rgba(248, 255, 241, 1);
 }
 
-.main-product {
-    display: flex;
-    width: 100%;
-}
 .product-desc-info {
+    display: flex;
     max-width: 435px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .product-container {
     display: flex;
@@ -199,7 +202,11 @@ nav .btn-black {
     border-radius: 30px;
     width: 398px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -207,9 +214,10 @@ nav .btn-black {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-top: 93px;
+    text-align: center;
 }
 
 
@@ -229,18 +237,13 @@ nav .btn-black {
     font-size: 0;
 }
 .image{
-
     display:inline;
-  
     height:100%;
-  
 }
 .image img {
-
     max-height:100%;
     height:100%; /* CHANGE */
-    width:auto !important; /* CHANGE */
-  
+    width:auto !important; /* CHANGE */ 
 }
 
 .reviews-container {
@@ -261,9 +264,11 @@ nav .btn-black {
 .review-text {
     background: linear-gradient(0deg, #F8FFF1, #F8FFF1), #F8FFF1;
     mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 20px;
     text-align: left;
+    padding: 15px;
+    padding-left: 30px;
 }
 
 .avatar {
@@ -275,8 +280,8 @@ nav .btn-black {
   
 .container-footer {
     padding-top: 40px;
-    padding-right: 120px;
-    padding-left: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .nav-footer {
     display: flex;
@@ -299,22 +304,27 @@ nav .btn-black {
 .container-footer-menu {
     display: flex;
 }
-.footer-menu {
+.footer-menu-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-menu-right {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
 .footer-item {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 285px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 300px;
 }
 .footer-link {
     font: 16px Ubuntu;
     font-weight: normal;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    
 }
 .footer-link-download {
     font: 16px Ubuntu;
