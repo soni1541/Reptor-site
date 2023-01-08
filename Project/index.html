@@ -17,23 +17,17 @@
 </head>
 <body>
 
-   
-
- <!--onclick="document.getElementsByClassName('login-page').style.display='block'"-->
 
     <header>
-        <div class="container">
-            <img class="logo" src="img/logo.png">
-            <ul class="menu-left">
-                <li class ="menu-item"><a class="menu-link" href="#main-product">Продукт</a></li>
-                <li class ="menu-item"><a class="menu-link" href="#main-about">О нас</a></li>
-                <li class ="menu-item"><a class="menu-link" href="#main-reviews">Отзывы</a></li>
-                <li class ="menu-item"><a class="menu-link-download" href="#">Скачать</a></li>
-            </ul>
-            <div class="menu-right">
-                <a class="menu-link" href="#login-page">Войти</a>
-                <button class="btn-black" onclick = "document.getElementById('login-page').style.display = 'block'"><a class="link-btn-black">Присоединиться</a></button>
-            </div>
+        <div class="header-menu">
+                <ul class="menu-left">
+                    <img class="logo" src="img/logo.png">
+                    <li class ="menu-item"><a href="#main-product">Продукт</a></li>
+                    <li class ="menu-item"><a href="#main-about">О нас</a></li>
+                    <li class ="menu-item"><a href="#main-reviews">Отзывы</a></li>
+                    <li class ="menu-item"><a class="menu-link-download" href="#">Скачать</a></li>
+                </ul>
+                <button class="btn-black" onclick = "document.getElementById('login-page').style.display = 'block'"><a>Присоединиться</a></button>
         </div>
     </header>
 
@@ -72,117 +66,126 @@
         </script>
 
 
-        <section class="main-description">
-            <div class="desc-container">
-                <div class="desc-info">
-                    <h1 class="black">Доступные знания и поддержка по всей России</h1>
-                    <div class="desc-text">
-                        <p class="black">Наша платформа представляет собой онлайн-сервис помощи студентам и преподавателям, где есть множество возможностей:  заказ работ, поиск специалиста, отслеживание занятий и многое др.</p>
+        <div class="desc-back">
+            <section class="main-description">
+                <div class="desc-container">
+                    <div class="desc-info">
+                        <h1 class="black">Доступные знания и поддержка по всей России</h1>
+                        <div class="desc-text">
+                            <p class="black">Наша платформа представляет собой онлайн-сервис помощи студентам и преподавателям, где есть множество возможностей:  заказ работ, поиск специалиста, отслеживание занятий и многое др.</p>
+                        </div>
+                        <button class="btn-white"><a href="#">Попробовать</a></button>
+                        <button class="btn-black"><a href="#">Подробнее</a></button>
+                    </div>            
+                    <img class="img-desc" src="img/desc3.png">
+                </div> 
+            </section> 
+        </div>
+        
+        <div class="product-back">
+            <section id="main-product" class="main-product">
+                <div class="desc-container">
+                    <div class="product-desc-info">
+                        <h1 class="white">Получение знаний с</h1>
+                        <h1 class="green">преимуществами</h1>
+                        <div class="desc-text">
+                            <p class="white">Поделитесь своими знаниями или получите помощь в обучении. 
+                                Благодаря множеству функций мы гарантируем простоту и ясность</p>
+                        </div>
                     </div>
-                    <button class="btn-white"><a class="link-btn-white" href="#">Попробовать</a></button></li>
-                    <button class="btn-black"><a class="link-btn-black" href="#">Подробнее</a></button></li>
-                </div>            
-                <img class="img-desc" src="img/desc3.png">
-            </div> 
-        </section> 
-         
-        <section id="main-product" class="main-product">
-            <div class="desc-container">
-                <div class="product-desc-info">
-                    <h1 class="white">Получение знаний с</h1>
-                    <h1 class="green">преимуществами</h1>
-                    <div class="desc-text">
-                        <p class="white">Поделитесь своими знаниями или получите помощь в обучении. 
-                            Благодаря множеству функций мы гарантируем простоту и ясность</p>
-                    </div>
-                </div>
-                <div class="product-container">
-                    <div class="product-option">
-                        <h1 class="small-green">Доступность</h1>
-                        <p class="white">
-                            Онлайн сервис Reptor является кросс-платформенным, то есть им можно пользоваться как с компьютера, так и через мобильное приложение 
-                        </p>
-                    </div>
-                    <div class="product-option">
-                        <h1 class="small-green">Удобство и функциональность</h1>
-                        <p class="white">
-                            Вы получите доступ к всевозможным функциям, которые помогут вам найти то, что вы ищете
-                        </p>
-                    </div>
-                    <div class="product-option">
-                        <h1 class="small-green">Сервис и поддержка</h1>
-                        <p class="white">
-                            Если во время использования сервиса у вас возникнут вопросы, то наша служба поддержки всегда готова ответить на них и помочь
-                        </p>
-                    </div>
-                    <div class="product-option">
-                        <h1 class="small-green">Безопасность</h1>
-                        <p class="white">
-                            Пароль и личные данные надежно защищены от доступа третьих лиц. Мы предоставляем безопасные сделки между учениками и преподавателями
-                        </p>
-                    </div>
-                </div>
-        </section>
-
-        <section id="main-about" class="main-about">
-            <div class="about-container">
-                <h1 class="black">О проекте</h1>
-                <p class="black">
-                    Мы сделали данный онлайн-сервис, чтобы сделать обучение более доступным и удобным.
-                </p>
-                <p class="black">
-                    Ученикам и преподавателям предоставляется всё необходимое: поиск клиента или репетитора, заказ работ, удобное средство общения, возможность составления расписания занятий — не придётся ничего искать.
-                </p>
-                <div class="gallery">
-                    <ul class="images">
-                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
-                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
-                        <li class="image"><img src="img/gallery/photo1.jpg"></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="main-reviews" class="main-reviews">
-            <div class="about-container">
-                <p class="black">
-                    ОТЗЫВЫ
-                </p>
-                <h1 class="black">Что говорят пользователи</h1>
-                <p class="black">
-                    Для развития и продвижения нашего сервиса отзывы пользователей очень важны. Они помогают сделать приложение лучше и удобней.  Мы очень рады нашим клиентам и всегда готовы узнать их мнение
-                </p>
-                <div class="reviews-container">
-                    <div class="review">
-                        <img class="avatar" src="img/avatars/avatar1.jpg">
-                        <p class="black">Преподаватель</p>
-                        <div class="review-text">
-                            <p class="black">
-                                Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
+                    <div class="product-container">
+                        <div class="product-option">
+                            <h1 class="small-green">Доступность</h1>
+                            <p class="white">
+                                Онлайн сервис Reptor является кросс-платформенным, то есть им можно пользоваться как с компьютера, так и через мобильное приложение 
+                            </p>
+                        </div>
+                        <div class="product-option">
+                            <h1 class="small-green">Удобство и функциональность</h1>
+                            <p class="white">
+                                Вы получите доступ к всевозможным функциям, которые помогут вам найти то, что вы ищете
+                            </p>
+                        </div>
+                        <div class="product-option">
+                            <h1 class="small-green">Сервис и поддержка</h1>
+                            <p class="white">
+                                Если во время использования сервиса у вас возникнут вопросы, то наша служба поддержки всегда готова ответить на них и помочь
+                            </p>
+                        </div>
+                        <div class="product-option">
+                            <h1 class="small-green">Безопасность</h1>
+                            <p class="white">
+                                Пароль и личные данные надежно защищены от доступа третьих лиц. Мы предоставляем безопасные сделки между учениками и преподавателями
                             </p>
                         </div>
                     </div>
-                    <div class="review">
-                        <img class="avatar" src="img/avatars/avatar2.jpg">
-                        <p class="black">Ученик</p>
-                        <div class="review-text">
-                            <p class="black">
-                                Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
-                            </p>
-                        </div>
+            </section>
+        </div>
+        
+        <div class="about-back">
+            <section id="main-about" class="main-about">
+                <div class="about-container">
+                    <h1 class="black">О проекте</h1>
+                    <p class="black">
+                        Мы сделали данный онлайн-сервис, чтобы сделать обучение более доступным и удобным.
+                    </p>
+                    <p class="black">
+                        Ученикам и преподавателям предоставляется всё необходимое: поиск клиента или репетитора, заказ работ, удобное средство общения, возможность составления расписания занятий — не придётся ничего искать.
+                    </p>
+                    <div class="gallery">
+                        <ul class="images">
+                            <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                            <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                            <li class="image"><img src="img/gallery/photo1.jpg"></li>
+                        </ul>
                     </div>
-                    <div class="review">
-                        <img class="avatar" src="img/avatars/avatar3.jpg">
-                        <p class="black">Ученик</p>
-                        <div class="review-text">
-                            <p class="black">
-                                Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
-                            </p>
+                </div>
+            </section>
+        </div>
+        
+        <div class="reviews-back">
+            <section id="main-reviews" class="main-reviews">
+                <div class="about-container">
+                    <p class="black">
+                        ОТЗЫВЫ
+                    </p>
+                    <h1 class="black">Что говорят пользователи</h1>
+                    <p class="black">
+                        Для развития и продвижения нашего сервиса отзывы пользователей очень важны. Они помогают сделать приложение лучше и удобней.  Мы очень рады нашим клиентам и всегда готовы узнать их мнение
+                    </p>
+                    <div class="reviews-container">
+                        <div class="review">
+                            <img class="avatar" src="img/avatars/avatar1.jpg">
+                            <p class="black">Преподаватель</p>
+                            <div class="review-text">
+                                <p class="black">
+                                    Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>   
-            </div>
-        </section>
+                        <div class="review">
+                            <img class="avatar" src="img/avatars/avatar2.jpg">
+                            <p class="black">Ученик</p>
+                            <div class="review-text">
+                                <p class="black">
+                                    Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
+                                </p>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <img class="avatar" src="img/avatars/avatar3.jpg">
+                            <p class="black">Ученик</p>
+                            <div class="review-text">
+                                <p class="black">
+                                    Уже несколько месяцев пользуюсь данным ПО. Приложение очень удобное, лаконичное, простое. Всем советую его использовать
+                                </p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+        </div>
+        
 
     </main>
 
