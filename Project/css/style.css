@@ -320,19 +320,19 @@ p.white{
 
 
 .gallery {
-    width: 840px;
+    width: 100%;
     height: 480px;
     overflow: hidden;
 }
 
 .images {
-    width:100%;
-    height:100%; /* CHANGE */
-  
-    overflow-y:scroll;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
     white-space: nowrap;
     line-height: 0;
-    font-size: 0;
+    font-size: 500px;
 }
 .image{
     display:inline;
