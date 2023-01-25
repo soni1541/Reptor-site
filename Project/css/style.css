@@ -104,6 +104,7 @@ header {
     background: #B8E986;
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
     margin-bottom: 5px;
+    
 }
 footer {
     height: 400px;
@@ -168,93 +169,81 @@ p.white{
 }
 .logo {
     height: 60px;
+    margin-right: 100px;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-menu {
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-left {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
-.menu-item {
-    margin-left: 60px;
-}
-.menu-right {
-    display: flex;
-    align-items: center;
-    margin-left: 260px;
-}
-.menu-link {
+.menu-left a{
     font: 16px Ubuntu;
     font-weight: normal;
     color: black;
     text-decoration: none;
     padding-right: 30px;
 }
-.menu-link-download {
-    font: 16px Ubuntu;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-decoration: none;
-    padding-right: 30px;
-}
-.link-btn-black {
-    font: 18px Ubuntu;
-    font-weight: normal;
-    color: white;
-    text-decoration: none;
-}
-nav .btn-black {
-    background-color: black;
-    border-radius: 20px;
-    margin-left: 30px;
-    width: 196px;
-    height: 39px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 .btn-black {
+    font: 16px Ubuntu;
+    font-weight: normal;
     background-color: black;
+    color: #FFFFFF;
     border-radius: 20px;
-    width: 196px;
-    height: 39px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 271px;
     height: 41px;
 }
-.link-btn-white {
-    font: 18px Ubuntu;
+.menu-item {
+    margin-right: 100px;
+}
+.desc-container .btn-black a {
+    font: 16px Ubuntu;
+    color: rgb(255, 255, 255);
     font-weight: normal;
-    color: rgb(0, 0, 0);
     text-decoration: none;
 }
+.desc-container .btn-white a {
+    font: 16px Ubuntu;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-decoration: none;
+}
+
 .btn-white {
+    font: 16px Ubuntu;
+    font-weight: normal;
     background-color: rgb(255, 255, 255);
-    border-color: white;
+    color: #000000;
+    border-color: rgb(255, 255, 255);
     border-radius: 20px;
-    width: 196px;
-    height: 39px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 271px;
     height: 41px;
     margin-right: 50px;
 }
+.desc-back {
+    background-color: #B8E986;
+}
 
 .main-description {
-    height: 700px;
-    background-color: #B8E986;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 150px;
 }
 .desc-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
 }
 
 .desc-info {
@@ -267,20 +256,34 @@ nav .btn-black {
     object-fit: cover;
 }
 
-.main-product {
-    display: flex;
-    height: 1100px;
+.product-back {
     background-color: #000000;
 }
-
-.main-about {
-    height: 1100px;
-    background-color: #ffffff;
+.main-product {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 150px;
 }
 
-.main-reviews {
-    height: 1100px;
+.about-back {
+    background-color: #ffffff;
+}
+.main-about {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.reviews-back {
     background-color: rgba(248, 255, 241, 1);
+}
+.main-reviews {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .product-desc-info {
@@ -294,6 +297,7 @@ nav .btn-black {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-right: 300px;
 }
 .product-option {
     border: 1px solid #FFFFFF;
@@ -312,27 +316,24 @@ nav .btn-black {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 93px;
     text-align: center;
 }
 
 
 .gallery {
-    width: 840px;
+    width: 100%;
     height: 480px;
     overflow: hidden;
 }
 
 .images {
-    width:100%;
-    height:100%; /* CHANGE */
-  
-    overflow-y:scroll;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
     white-space: nowrap;
     line-height: 0;
-    font-size: 0;
+    font-size: 526px;
 }
 .image{
     display:inline;
